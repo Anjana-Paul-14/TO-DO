@@ -16,8 +16,8 @@ function TodoList() {
         // console.log(...todos);
     };
 
-    const completeTodo = id =>{
-        let updatedTodos = todos.map(todo =>{
+    const completeTodo = id => {
+        let updatedTodos = todos.map(todo => {
             if (todo.id === id) {
                 todo.isComplete = !todo.isComplete;
             }
@@ -25,6 +25,7 @@ function TodoList() {
         });
         setTodos(updatedTodos);
     };
+
 
   return (
     <div>
