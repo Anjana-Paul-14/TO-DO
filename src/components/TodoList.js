@@ -6,7 +6,7 @@ function TodoList() {
 
   return (
     <div>
-        <h1> hi!!</h1>
+        <h1> HI !!</h1>
         <TodoForm />
     </div>
   );
